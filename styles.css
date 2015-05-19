@@ -1,0 +1,77 @@
+.octodex {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.octodex img {
+  width: 20px;
+}
+
+.octocat {
+  width: 450px;
+  position: relative;
+  display: inline-block;
+  margin:10px;
+  border-bottom: solid 1px lightgray;
+}
+
+.octocat img {
+  width: 100%;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8px 0 8px;
+  border-color: #c7c7c7 transparent transparent transparent;
+  float:right;
+  position: relative;
+  top: -5px;
+  left: -23px;
+}
+
+.image-footer img {
+  width:30px;
+  display: inline-block;
+  opacity: 1;
+  border:none;
+  border-radius: 5px;
+  vertical-align: top;
+  margin: 8px 0px 8px 4px;
+}
+
+.image-caption ul, li, a {
+  text-decoration: none;
+  list-style: none;
+  color: #111111;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.image-number {
+  margin-top: 10px;
+  float:left;
+  text-align: left;
+  width: 100px;
+  font-size: 20px;
+  color: gray;
+  font-weight: bolder;
+  opacity: .6
+}
+
+.image-caption {
+  float:right;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.image-caption span {
+  color: #5e5e5e;
+  opacity: .8;
+  font-size: 16px;
+}
